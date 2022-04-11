@@ -18,7 +18,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - sudo docker build -t test --build-arg VAR1=$VAR1 . 
+      - docker build -t test --build-arg VAR1=$VAR1 . 
 
   post_build:
     commands:
