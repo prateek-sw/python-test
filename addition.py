@@ -1,4 +1,4 @@
 import os
-a=os.environ.get('var1')
-print (a)
+VAR1=os.environ.get('VAR1')
+print (VAR1)
 print (5+8)
